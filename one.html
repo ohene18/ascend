@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.left-content {
+  flex: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.right-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.right-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive behavior for mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .right-image, .left-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .right-image img {
+    width: 80%;
+  }
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="left-content">
+          <!-- Your text or other elements go here -->
+          <h1>Transform Your Poultry Business</h1>
+          <p>Grow Limitlessly with Digital Solutions</p>
+        </div>
+        <div class="right-image">
+          <img src="img.jpg" alt="Poultry Image">
+        </div>
+      </div>
+</body>
+</html>
+
+  

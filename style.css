@@ -1,0 +1,17 @@
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+    font-family: 'Inter', sans-serif;
+}
+.hero-section {
+    background-image: url('https://readdy.ai/api/search-image?query=A%20modern%20digital%20marketing%20office%20environment%20with%20subtle%20poultry%20business%20elements.%20The%20left%20side%20has%20a%20clean%20gradient%20from%20white%20to%20light%20blue%2C%20perfect%20for%20text%20overlay.%20The%20right%20side%20shows%20digital%20marketing%20tools%2C%20analytics%20screens%2C%20and%20subtle%20poultry%20imagery.%20Professional%2C%20clean%2C%20corporate%20style%20with%20soft%20lighting%20and%20modern%20aesthetics.%20The%20transition%20between%20left%20and%20right%20is%20seamless%20and%20natural.&width=1920&height=800&seq=hero123&orientation=landscape');
+    background-size: cover;
+    background-position: center;
+}
+input:focus {
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
